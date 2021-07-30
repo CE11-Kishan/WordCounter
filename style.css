@@ -1,0 +1,332 @@
+
+        * {
+            box-sizing: border-box;
+        }
+
+
+        /* Create three equal columns that floats next to each other */
+        .column {
+            border: 2px solid black;
+            float: left;
+            width: 33.33%;
+            padding: 15px;
+            background-color: blanchedalmond;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .firstSection {
+            display: flex;
+            width: 100%;
+            margin: auto;
+            flex-direction: row;
+            height: 693px;
+        }
+
+        .box {
+            width: 70%;
+            margin: auto;
+            margin-left: 100px;
+
+        }
+
+        .bbox {
+            width: 30%;
+            display: flex;
+
+        }
+
+
+        table,
+        th,
+        td {
+            border: 2px solid black;
+            margin: auto;
+
+            text-align: center;
+            height: 74px;
+            margin: auto;
+            margin-bottom: 270px;
+            justify-content: center;
+            font-family: 'Balsamiq Sans', cursive;
+
+            font-family: 'Piedra', cursive;
+        }
+
+
+        .style {
+            float: right;
+            width: 300px;
+
+            background-color: white;
+        }
+
+        .logo {
+            width: 20%;
+            margin-top: 5px;
+            margin-left: 100px;
+            margin-bottom: 5px;
+
+        }
+
+        .logo img {
+            width: 20%;
+            border: 3px;
+            border-radius: 50px;
+
+        }
+
+
+
+        .nav-list {
+            display: flex;
+            width: 100%;
+
+        }
+
+        .nav-list li {
+            display: flex;
+            padding: 26px 30px;
+            list-style: none;
+            align-items: center;
+        }
+
+        .nav-list li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .nav-list li a:hover {
+            text-decoration: none;
+            color: white;
+        }
+
+        .background {
+            /*  background: rgba(0, 0, 0, 0.7) url('444.jpg');
+        background-size: cover;
+        background-blend-mode: brighten;*/
+            background-color: #0F4F76;
+        }
+
+        .heading {
+            width: auto;
+            padding: 10px;
+
+
+        }
+
+        .text-big {
+            font-size: 2rem;
+            color: #fff;
+
+        }
+
+
+        textarea {
+            border: 5px solid #0984e3;
+            height: 334px;
+            width: 100%;
+            border-radius: 10px;
+            outline: none;
+            font-size: 1.2rem;
+            padding: 5px 5px;
+            box-shadow: 0 0 4px 1 px #b2bec3;
+            justify-content: center;
+            display: flex;
+            margin: auto;
+            box-sizing: border-box;
+            font-family: 'Nanum Gothic', sans-serif;
+        }
+
+        button {
+
+            padding: 20px 30px;
+            background-color: #74b9ff;
+            color: white;
+            border-radius: 10px;
+            border: 2px solid #0984e3;
+            font-size: 1.2rem;
+            outline: none;
+            cursor: pointer;
+            display: flex;
+            margin: auto;
+            justify-content: center;
+            font-family: 'Balsamiq Sans', cursive;
+
+            font-family: 'Piedra', cursive;
+        }
+
+        p {
+            color: black;
+            font-size: 1.2rem;
+            text-align: left;
+            font-family: 'Nanum Gothic', sans-serif;
+        }
+
+        .p1 {
+            text-align: center;
+            font-family: 'Nanum Gothic', sans-serif;
+
+        }
+
+        #showdata {
+            color: #0984e3;
+        }
+
+        #showwordscount {
+            color: #0984e3;
+        }
+
+        p1,
+        h1 {
+            text-align: center;
+
+        }
+
+        p2 {
+            font-family: 'Balsamiq Sans', cursive;
+
+
+        }
+
+
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: sticky;
+            top: 0;
+            cursor: pointer;
+            font-family: 'Nanum Gothic', sans-serif;
+            background-color: black;
+        }
+
+        hr {
+            color: #fff;
+        }
+
+        .section {
+
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            max-width: 80%;
+            margin: auto;
+        }
+
+        .left {
+
+            flex-direction: row-reverse;
+
+        }
+
+
+
+        .thumbnail img {
+            width: 250px;
+            border: 2px solid black;
+            border-radius: 64px;
+            margin-bottom: 15px;
+            margin-left: 1opx;
+            margin-right: 10px;
+            margin-top: 15px;
+
+        }
+
+        .text-footer {
+
+            color: white;
+            text-align: center;
+            padding-top: 20px;
+
+            background-color: black;
+
+        }
+
+
+        @media only screen and (max-width: 1000px) {
+
+            .nav-list {
+                justify-content: center;
+
+            }
+
+            .navbar {
+                margin: auto;
+                flex-direction: column;
+
+            }
+
+            .section {
+                flex-direction: column-reverse;
+            }
+
+            table,
+            th,
+            td {
+
+                margin: auto;
+                height: 50px;
+                border-collapse: collapse;
+
+
+            }
+
+            .style {
+                float: none;
+                margin: auto;
+
+            }
+
+
+
+
+            .button {
+                margin: auto;
+
+            }
+
+            .box {
+                margin: auto;
+                width: auto;
+
+
+
+            }
+
+            .firstSection {
+                display: flex;
+                flex-direction: column;
+                margin: auto;
+                height: 800px;
+
+
+            }
+
+            .bbox {
+                margin: auto;
+                width: auto;
+            }
+
+            .textarea {
+                height: auto;
+                min-width: 375px;
+                font-size: -0.8rem;
+            }
+
+            .logo {
+                display: none;
+            }
+
+            .text-big {
+                font-size: 1rem;
+            }
+
+            .column {
+                width: 100%;
+            }
+        }
+   
